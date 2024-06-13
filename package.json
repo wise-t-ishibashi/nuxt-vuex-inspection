@@ -1,0 +1,81 @@
+{
+  "name": "vuex-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.25.3",
+    "nuxt": "npm:@neverendingsupport/nuxt2@2.17.3-nuxt-2.17.4",
+    "vue": "npm:@neverendingsupport/vue2@2.7.18",
+    "vue-router": "npm:@neverendingsupport/vue-router@3.6.6",
+    "vuex": "npm:@neverendingsupport/vuex@4.1.1"
+  },
+  "devDependencies": {},
+  "overrides": {
+    "nuxt": {
+      ".": "npm:@neverendingsupport/nuxt2@2.17.3-nuxt-2.17.4"
+    },
+    "@nuxt/babel-preset-app": {
+      ".": "npm:@neverendingsupport/nuxt2@2.17.3-babel-preset-app-2.17.4"
+    },
+    "@nuxt/builder": {
+      ".": "npm:@neverendingsupport/nuxt2@2.17.3-builder-2.17.4"
+    },
+    "@nuxt/cli": {
+      ".": "npm:@neverendingsupport/nuxt2@2.17.3-cli-2.17.4"
+    },
+    "@nuxt/config": {
+      ".": "npm:@neverendingsupport/nuxt2@2.17.3-config-2.17.4"
+    },
+    "@nuxt/core": {
+      ".": "npm:@neverendingsupport/nuxt2@2.17.3-core-2.17.4"
+    },
+    "@nuxt/generator": {
+      ".": "npm:@neverendingsupport/nuxt2@2.17.3-generator-2.17.4"
+    },
+    "@nuxt/nuxt-start": {
+      ".": "npm:@neverendingsupport/nuxt2@2.17.3-nuxt-start-2.17.4"
+    },
+    "@nuxt/server": {
+      ".": "npm:@neverendingsupport/nuxt2@2.17.3-server-2.17.4"
+    },
+    "@nuxt/types": {
+      ".": "npm:@neverendingsupport/nuxt2@2.17.3-types-2.17.4"
+    },
+    "@nuxt/utils": {
+      ".": "npm:@neverendingsupport/nuxt2@2.17.3-utils-2.17.4"
+    },
+    "@nuxt/vue-app": {
+      ".": "npm:@neverendingsupport/nuxt2@2.17.3-vue-app-2.17.4"
+    },
+    "@nuxt/vue-renderer": {
+      ".": "npm:@neverendingsupport/nuxt2@2.17.3-vue-renderer-2.17.4"
+    },
+    "@nuxt/webpack": {
+      ".": "npm:@neverendingsupport/nuxt2@2.17.3-webpack-2.17.4"
+    },
+    "vue": {
+      ".": "npm:@neverendingsupport/vue2@2.7.18"
+    },
+    "vue-server-renderer": {
+      ".": "npm:@neverendingsupport/vue2@2.7.18-server-renderer"
+    },
+    "vue-template-compiler": {
+      ".": "npm:@neverendingsupport/vue2@2.7.18-template-compiler"
+    },
+    "@vue/compiler-sfc": {
+      ".": "npm:@neverendingsupport/vue2@2.7.18-compiler-sfc"
+    },
+    "vuex": {
+      ".": "npm:@neverendingsupport/vuex@4.1.1"
+    },
+    "vue-router": {
+      ".": "npm:@neverendingsupport/vue-router@3.6.6"
+    }
+  }
+}
