@@ -1,18 +1,27 @@
 <template>
-    <div>
-        <h1>vuex test</h1>
-    </div>
+  <div>
+    <h1>vuex test</h1>
+    <button @click="decrement({ count: counter - 1 })">Decrement</button>
+    Counter: {{ counter }}
+    <button @click="increment({ count: counter + 1 })">Increment</button>
+  </div>
 </template>
 
 <script>
 import { mapActions, mapGetters } from 'vuex';
-import * as Vuex from 'vuex'
 
 export default {
-    async created() {
-        console.log(this)
-        console.log(this.$store) // undefined
-    }
+  computed: {
+    ...mapGetters({
+      counter: 'counter',
+    }),
+  },
+  methods: {
+    ...mapActions({
+      increment: 'increment',
+      decrement: 'decrement',
+    })
+  }
 };
 </script>
 
