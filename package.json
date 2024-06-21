@@ -13,7 +13,7 @@
     "nuxt": "npm:@neverendingsupport/nuxt2@2.17.3-nuxt-2.17.4",
     "vue": "npm:@neverendingsupport/vue2@2.7.18",
     "vue-router": "npm:@neverendingsupport/vue-router@3.6.6",
-    "vuex": "npm:@neverendingsupport/vuex@4.1.1"
+    "vuex": "npm:@neverendingsupport/vuex@3.7.0"
   },
   "devDependencies": {},
   "overrides": {
@@ -72,7 +72,7 @@
       ".": "npm:@neverendingsupport/vue2@2.7.18-compiler-sfc"
     },
     "vuex": {
-      ".": "npm:@neverendingsupport/vuex@4.1.1"
+      ".": "npm:@neverendingsupport/vuex@3.7.0"
     },
     "vue-router": {
       ".": "npm:@neverendingsupport/vue-router@3.6.6"
